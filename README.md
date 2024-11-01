@@ -10,6 +10,10 @@ Domain adaptation object detection (DAOD) uses the labeled data of one scene (i.
 3) The ILFD module is proposed for guiding the adversarial domain discriminator to concentrate on instance-level domain-invariant features by disentangling the foreground and background parts.
 4) Extensive experiments performed in common cross-domain scenarios qualitatively and quantitatively demonstrate the effectiveness of DRY.
 
+### Model
+|        Model         | Car | Person  | Rider  | Bus  | Truck | Train  | Bicycle  | Motor  | mAP  | Checkpoint  |
+| :------------------: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :---------: |
+|    [best_model](configs/nuscenes/det/transfusion/secfpn/camera+lidar/swint_v0p075/convfuser.yaml)       | 61.9 | 45.2 | 47.1 | 25.0 | 49.7 | 46.1 | 36.8 | 29.9 | 42.7 | [Link](https://www.dropbox.com/scl/fi/ulaz9z4wdwtypjhx7xdi3/bevfusion-det.pth?rlkey=ovusfi2rchjub5oafogou255v&dl=1) |
 
 ### YOLOX structure
 The DRY continues to use the head structure of YOLOX for the detection head.
