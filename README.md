@@ -14,7 +14,7 @@ Domain adaptation object detection (DAOD) uses the labeled data of one scene (i.
 |        Model         | Car | Person  | Rider  | Bus  | Truck | Train  | Bicycle  | Motor  | mAP  | Checkpoint  |
 | :------------------: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :---------: |
 |    best_model  | 61.9 | 45.2 | 46.1 | 47.1 | 25.0 | 49.7 | 36.8 | 29.9 | 42.7 | [Link](https://www.dropbox.com/scl/fi/ulaz9z4wdwtypjhx7xdi3/bevfusion-det.pth?rlkey=ovusfi2rchjub5oafogou255v&dl=1) |
-|    ablation_model_hp $L_{det}$_1  | 61.662 | 44.779 | 46.336 | 48.460 | 24.686 | 48.984 | 35.809 | 28.912 | 42.4 | [Link](https://www.dropbox.com/scl/fi/ulaz9z4wdwtypjhx7xdi3/bevfusion-det.pth?rlkey=ovusfi2rchjub5oafogou255v&dl=1) |
+|    ablation_model_hp $L_{det}$ 1  | 61.662 | 44.779 | 46.336 | 48.460 | 24.686 | 48.984 | 35.809 | 28.912 | 42.4 | [Link](https://www.dropbox.com/scl/fi/ulaz9z4wdwtypjhx7xdi3/bevfusion-det.pth?rlkey=ovusfi2rchjub5oafogou255v&dl=1) |
 |    ablation_model_hp_$L_{det}$_2  | 61.589 | 45.092 | 46.221 | 48.266 | 24.518 | 48.972 | 36.098 | 29.403 | 42.5 | [Link](https://www.dropbox.com/scl/fi/ulaz9z4wdwtypjhx7xdi3/bevfusion-det.pth?rlkey=ovusfi2rchjub5oafogou255v&dl=1) |
 |    ablation_model_hp_$L_{MGFA}$_1  | 61.649 | 45.203 | 46.330 | 47.630 | 24.645 | 48.972 | 36.368 | 29.646 | 42.6 | [Link](https://www.dropbox.com/scl/fi/ulaz9z4wdwtypjhx7xdi3/bevfusion-det.pth?rlkey=ovusfi2rchjub5oafogou255v&dl=1) |
 |    ablation_model_hp_$L_{MGFA}$_2  | 61.567 | 45.114 | 46.097 | 48.171 | 24.438 | 48.972 | 36.112 | 29.9349 | 42.5 | [Link](https://www.dropbox.com/scl/fi/ulaz9z4wdwtypjhx7xdi3/bevfusion-det.pth?rlkey=ovusfi2rchjub5oafogou255v&dl=1) |
