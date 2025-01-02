@@ -12,7 +12,7 @@ Domain adaptation object detection (DAOD) uses the labeled data of one scene (i.
 4) Extensive experiments performed in common cross-domain scenarios qualitatively and quantitatively demonstrate the effectiveness of DRY.
 
 ### Model
-Due to the inability to upload large files in Guthub, we have uploaded our optimal model to Google Cloud Drive at the [link](https://drive.google.com/file/d/1iqEhEscleOlL_tr6G2JpmjknY9Ik4zt5/view?usp=drive_link)
+Due to the inability to upload large files in Guthub, we have uploaded our optimal model to Google Cloud Drive at the [link](https://drive.google.com/file/d/1iqEhEscleOlL_tr6G2JpmjknY9Ik4zt5/view?usp=sharing)
 
 The link to the optimal model for other fog densities is [link](https://drive.google.com/drive/folders/1DPevWOIVhNHuvoJy5j_UpqJSMFFE0Ca6?usp=sharing)
 
