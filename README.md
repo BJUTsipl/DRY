@@ -14,7 +14,7 @@ Domain adaptation object detection (DAOD) uses the labeled data of one scene (i.
 ### Model
 Due to the inability to upload large files in Guthub, we have uploaded our optimal model to Google Cloud Drive at the [link](https://drive.google.com/file/d/1iqEhEscleOlL_tr6G2JpmjknY9Ik4zt5/view?usp=drive_link)
 
-The link to the optimal model for other fog densities is [link](https://drive.google.com/file/d/1XGmoKmiRoIxmAgECgNjxe0AjI84BAz46/view?usp=drive_link)
+The link to the optimal model for other fog densities is [link](https://drive.google.com/drive/folders/1DPevWOIVhNHuvoJy5j_UpqJSMFFE0Ca6?usp=sharing)
 
 ### YOLOX structure
 The DRY continues to use the head structure of YOLOX for the detection head.
