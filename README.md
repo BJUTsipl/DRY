@@ -20,5 +20,20 @@ The link to the optimal model for other fog densities is [link](https://drive.go
 The DRY continues to use the head structure of YOLOX for the detection head.
 ![image](./resources/YOLOX_structure.png)
 
+### Comparison with other comparative methods under different fog density conditions
+Due to the fact that some of the compared methods do not disclose any source code, as well as the fact that some of the methods lack the necessary documentation in their repositories, we are actively contacting the authors of these methods. The comparison methods that we have successfully reproduced in full so far are listed below:
+
+The form will be updated on an ongoing basis.
+
+| Method | fog density coefficient   | Car | Person | Rider | Bus | Truck | Train | Bicycle | Motor | mAP |
+|--------|---------------------------|-----|--------|-------|-----|-------|-------|---------|-------|-----|
+| EPM    |         0.005             | 67.9|  48.5  |  49.0 | 55.7| 34.7  |  43.5 |   40.4  |  35.9 | 46.9|
+| EPM    |         0.01              | 63.5|  47.2  |  46.1 | 50.2|  28.5 |  37.1 |   41.6  |  31.2 | 43.2|
+| EPM    |         0.02              | 57.3|  39.9  |  38.1 | 50.7|  28.7 |  37.2 |   34.2  |  30.2 | 39.5|
+|--------|---------------------------|-----|--------|-------|-----|-------|-------|---------|-------|-----|
+| our    |         0.005             | 70.4|  51.7  |  45.0 | 55.3|  32.5 |  58.2 |   42.1  |  39.2 | 49.3|
+| our    |         0.01              | 67.4|  49.7  |  47.8 | 49.6|  25.9 |  51.1 |   41.8  |  37.4 | 46.3|
+| our    |         0.02              | 61.9|  45.2  |  46.1 | 47.1|  25.0 |  49.7 |   36.8  |  29.9 | 42.7|
+
 ### Code
 The code for this program will be published soon.
